@@ -1,4 +1,6 @@
 let myImage = document.querySelector("img");
+const heading2 = document.querySelector("h2");
+heading2.textContent = "Click the cat!";
 
 
 myImage.onclick = () => {
