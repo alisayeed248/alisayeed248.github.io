@@ -19,7 +19,7 @@ function setUserName() {
         setUserName();
     } else {
         localStorage.setItem("name", myName); //localStorage is an API that's called on, stores data in browser
-        myHeading.textContent = 'Hi ' + myName;
+        myHeading.textContent = 'Welcome ' + myName;
     }
 }
     
